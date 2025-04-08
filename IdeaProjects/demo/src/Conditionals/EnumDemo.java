@@ -25,7 +25,7 @@ public class EnumDemo {
         Month month = Month.valueOf(monthStr.toUpperCase());
 
         switch (month) {
-            case Month.JANUARY, FEBRUARY, MARCH -> System.out.println("q1");
+            case JANUARY, FEBRUARY, MARCH -> System.out.println("q1");
             case APRIL, MAY, JUNE -> System.out.println("q2");
             case JULY, AUGUST, SEPTEMBER -> System.out.println("q3");
             case OCTOBER, NOVEMBER, DECEMBER -> System.out.println("q4");
